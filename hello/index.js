@@ -1,5 +1,5 @@
 const express = require('express')
-const a = require('./hello.js')
+const a = require('./hello')
 const router = express.Router()
 
 router
