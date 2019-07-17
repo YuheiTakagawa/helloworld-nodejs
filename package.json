@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "nodemon \"./dist/helloworld\""
+    "start": "nodemon \"./dist/helloworld\"",
+    "run": "webpack --config webpack.config.js --watch & nodemon \"./dist/helloworld.js\""
   },
   "keywords": [],
   "author": "",

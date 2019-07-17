@@ -1,9 +1,6 @@
-//import express from 'express'
-//import bodyParser from 'body-parser'
-//import hello from'./hello/index'
-const express = require('express')
-const bodyParser = require('body-parser')
-const hello = require('./hello/index')
+import express from 'express'
+import bodyParser from 'body-parser'
+import {router as hello} from './hello/index'
 const app = express()
 
 app.use(bodyParser.json())
